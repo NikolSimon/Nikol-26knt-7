@@ -4,7 +4,7 @@
 # Алгоритм сложения двух чисел
 
 def calculate(a, b):
-    result = a + b + 10   # ОШИБКА: лишнее +10
+    result = a + b    
     return result
 
 print(calculate(5, 3))
